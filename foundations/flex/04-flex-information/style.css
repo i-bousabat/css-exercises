@@ -12,20 +12,19 @@ body {
 .bottom {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
 
 }
-.bottom > * {
+.plant {
   display:flex;
   flex-direction: column;
   align-items: center;
-  width: 200px
+  justify-content: center;
+
 }
 
-.bottom .div .div {
-  font-size: 300px;
-  display: flex;
-  align-items: center;
+.plant div{
+  font-size: 30px;
 }
 
 
