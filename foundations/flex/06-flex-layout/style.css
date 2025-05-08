@@ -38,11 +38,9 @@ input {
 }
 
 ul {
-  list-style-type:none; /* removes bullet points */
   display: flex;
-  flex-direction: row;
-  list-style-type:none;
-  text-decoration: none;
+  flex-direction: row; 
+  list-style-type:none; /* removes bullet points */
   color: grey;
   gap: 10px;
   margin: 0;
@@ -55,7 +53,7 @@ li a{
 }
 
 .content {
-  flex: 1; /* This allows .content to grow and take all available vertical space between header and footer */
+  flex: 1;/* This allows .content to grow and take all available vertical space between header and footer */
   justify-content: center;
   display: flex;
   flex-direction: column;
