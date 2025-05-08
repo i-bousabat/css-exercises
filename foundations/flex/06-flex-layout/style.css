@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction:column;
-  justify-content: space-between;
   
 }
 
@@ -56,9 +55,15 @@ li a{
 }
 
 .content {
+  flex: 1; /* This allows .content to grow and take all available vertical space between header and footer */
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+   /*we are stretching the .content container,
+     but NOT its children, they keep their natural size and are just centered.
+     No distortion happens because we don’t force their height or width. */
 }
 
 .content .buttons * {
